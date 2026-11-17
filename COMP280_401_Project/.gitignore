@@ -1,0 +1,71 @@
+# Unreal Engine .gitignore
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# Compiled / generated
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Keep these Build files if you use them (platform configs, icons, etc.)
+# Remove the "Build/" line above and uncomment the lines below if needed:
+# Build/*
+# !Build/*/
+# !Build/*/PakBlacklist*.txt
+# !Build/**/*.ico
+
+# Compiled source files
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.la
+*.lai
+*.exe
+*.out
+*.app
+*.ipa
+*.apk
+*.pdb
+*.ilk
+*.exp
+
+# Rider / JetBrains
+*.DotSettings.user
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Crash / log / temp files
+*.log
+*.tmp
+*.dmp
+*.bak
+
+# Local-only config
+Config/UserEditorPerProjectUserSettings.ini
